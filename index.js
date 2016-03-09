@@ -1,7 +1,7 @@
 'use strict';
 
 var Dispatcher = require('./lib/dispatcher');
-var EventEmitter = require('./lib/event');
+var EventEmitter = require('./lib/event-emitter');
 var utils = require('./lib/utils');
 
 var Fluxaroo = {
