@@ -1,13 +1,12 @@
 'use strict';
 
 var Dispatcher = require('./lib/dispatcher');
-var EventEmitter = require('./lib/event-emitter');
 var utils = require('./lib/utils');
 
 var Fluxaroo = {
-  Dispatcher: Dispatcher,
-  EventEmitter: EventEmitter,
-  utils: utils
+  dispatcher: new Dispatcher(),
+  createStore: utils.createStore,
+  createContainer: utils.createContainer
 };
 
 module.exports = Fluxaroo;
