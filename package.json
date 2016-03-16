@@ -4,5 +4,10 @@
   "description": "Flux implementation",
   "author": "Matt Sweetman",
   "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webroo/fluxaroo.git"
+  },
   "main": "index.js"
 }
